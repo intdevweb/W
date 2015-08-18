@@ -13,6 +13,7 @@ class DefaultController extends Controller
 	public function home()
 	{
 		$this->show('default/home');
+		//c'est ici que l'on pourrait faire des requetes sql
 	}
 	/**
 	 * Page de contact par défaut
@@ -20,6 +21,7 @@ class DefaultController extends Controller
 	public function contact()
 	{
 		$this->show('default/contact');
+		//c'est ici que l'on pourrait faire des requetes sql
 	}
 /**
 	 * Page de About par défaut
@@ -27,5 +29,6 @@ class DefaultController extends Controller
 	public function about()
 	{
 		$this->show('default/about');
+		//c'est ici que l'on pourrait faire des requetes sql
 	}
 }

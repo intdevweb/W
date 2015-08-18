@@ -16,7 +16,7 @@
 				<a href="<?php echo $this->url('home'); ?>">Contact</a>
 				<a href="<?php echo $this->url('about'); ?>">About</a>
 			</nav>
-			</nav>
+			
 		</header>
 
 		<section>

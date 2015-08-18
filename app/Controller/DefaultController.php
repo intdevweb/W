@@ -14,5 +14,18 @@ class DefaultController extends Controller
 	{
 		$this->show('default/home');
 	}
-
+	/**
+	 * Page de contact par défaut
+	 */
+	public function contact()
+	{
+		$this->show('default/contact');
+	}
+/**
+	 * Page de About par défaut
+	 */
+	public function about()
+	{
+		$this->show('default/about');
+	}
 }
